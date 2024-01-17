@@ -1,0 +1,45 @@
+
+>>> import pandas as pd
+>>> import matplotlib.pyplot as plt
+>>> df = pd.read_csv('/Users/samikshasreekanthan/Downloads/Book1.csv')
+>>> #Boxplot
+>>> plt.boxplot([df['Murder'], df['Assault'], df['Rape']], labels=['Murder', 'Assault', 'Rape'])
+{'whiskers': [<matplotlib.lines.Line2D object at 0x13bb4d6d0>, <matplotlib.lines.Line2D object at 0x13bb4e490>, <matplotlib.lines.Line2D object at 0x13bb5ec10>, <matplotlib.lines.Line2D object at 0x13bb5f6d0>, <matplotlib.lines.Line2D object at 0x13bb6bc90>, <matplotlib.lines.Line2D object at 0x13bb74910>], 'caps': [<matplotlib.lines.Line2D object at 0x13bb4f110>, <matplotlib.lines.Line2D object at 0x13bb4fdd0>, <matplotlib.lines.Line2D object at 0x13bb682d0>, <matplotlib.lines.Line2D object at 0x13bb68e50>, <matplotlib.lines.Line2D object at 0x13bb75410>, <matplotlib.lines.Line2D object at 0x13bb75fd0>], 'boxes': [<matplotlib.lines.Line2D object at 0x13bb4ca10>, <matplotlib.lines.Line2D object at 0x13bb5e050>, <matplotlib.lines.Line2D object at 0x13bb6b090>], 'medians': [<matplotlib.lines.Line2D object at 0x13bb5c910>, <matplotlib.lines.Line2D object at 0x13bb699d0>, <matplotlib.lines.Line2D object at 0x13bb76a10>], 'fliers': [<matplotlib.lines.Line2D object at 0x13bb5d410>, <matplotlib.lines.Line2D object at 0x13bb6a550>, <matplotlib.lines.Line2D object at 0x13bb77550>], 'means': []}
+>>> plt.ylabel("Crime Rate")
+Text(0, 0.5, 'Crime Rate')
+>>> plt.title("Crime Rate Distribution by Type")
+Text(0.5, 1.0, 'Crime Rate Distribution by Type')
+>>> plt.show()
+2023-10-02 22:29:27.532 Python[12245:414665] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

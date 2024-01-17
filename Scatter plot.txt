@@ -1,0 +1,17 @@
+
+>>> import pandas as pd
+>>> import matplotlib.pyplot as plt
+>>> df = pd.read_csv('/Users/samikshasreekanthan/Downloads/Book1.csv')
+>>> plt.scatter(df['Murder'], df['Assault'], color='blue', alpha=0.6)
+<matplotlib.collections.PathCollection object at 0x11e3c4d10>
+>>> plt.xlabel("Murder rate"), plt.ylabel("Assault rate"), plt.title("Murder vs Assault rates across States"), plt.show()
+2023-10-02 22:25:08.635 Python[12175:412350] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+
+
+
+
+
+
+
+
+
